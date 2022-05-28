@@ -1,0 +1,87 @@
+:root {
+  /* font */
+  --font-01: 'Montserrat', sans-serif;
+  --font-02: 'Poppins', sans-serif;
+  --font-03: 'Roboto', sans-serif;
+  --font-03: 'Spline Sans Mono', monospace;
+  /* font */
+
+  /* color */
+  --deep-purple: #2a2550;
+  --dark: #354259;
+  --putih: #ffff;
+  --abu-abu: #8d8daa;
+  --biru: #013145;
+  --orange: #ff6701;
+  /* color */
+}
+body {
+  font-family: var(--font-01);
+}
+/* navbar */
+.navbar {
+  background-color: var(--dark);
+}
+.navbar-brand {
+  font-family: var(--font-02);
+  font-size: 20px;
+  color: var(--orange);
+  text-transform: uppercase;
+}
+.nav-link {
+  color: var(--orange);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 14px;
+}
+/*  */
+/* header */
+header {
+  background-color: var(--biru);
+  margin-top: 3rem;
+}
+
+.hero-text {
+  color: var(--abu-abu);
+  font-family: var(--font-03);
+  margin-top: 5rem;
+  text-shadow: 1px 1px 2px #000;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+.hero-text-name {
+  color: var(--orange);
+}
+.hero-link {
+  color: var(--dark);
+  font-size: 1.5em;
+  text-shadow: 1px 0.5px 2px #000000;
+}
+.hero-text-p {
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.hero-text-p2 {
+  background-color: var(--orange);
+  padding: 5px;
+  color: var(--putih);
+  text-shadow: 1px 1px 2px #000;
+  font-weight: 500;
+}
+.portofolio {
+  background-color: var(--biru);
+  color: var(--putih);
+}
+.text-heading {
+  font-family: var(--font-03);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.card-text {
+  color: var(--abu-abu);
+  font-size: 14px;
+  text-align: center;
+}
