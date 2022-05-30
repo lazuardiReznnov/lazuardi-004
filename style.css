@@ -3,7 +3,8 @@
   --font-01: 'Montserrat', sans-serif;
   --font-02: 'Poppins', sans-serif;
   --font-03: 'Roboto', sans-serif;
-  --font-03: 'Spline Sans Mono', monospace;
+  --font-04: 'Spline Sans Mono', monospace;
+  --font-05: 'Dancing Script', cursive;
   /* font */
 
   /* color */
@@ -14,6 +15,11 @@
   --biru: #013145;
   --orange: #ff6701;
   /* color */
+
+  /* shadow */
+  --shadow-text-1: 1px 1px 2px #000;
+  --shadow-link-2: 1px 0.5px 2px #000000;
+  /* Shadow */
 }
 body {
   font-family: var(--font-01);
@@ -23,8 +29,8 @@ body {
   background-color: var(--dark);
 }
 .navbar-brand {
-  font-family: var(--font-02);
-  font-size: 20px;
+  font-family: var(--font-04);
+
   color: var(--orange);
   text-transform: uppercase;
 }
@@ -44,21 +50,21 @@ header {
 
 .hero-text {
   color: var(--abu-abu);
-  font-family: var(--font-03);
+  font-family: var(--font-01);
   margin-top: 5rem;
-  text-shadow: 1px 1px 2px #000;
-  text-transform: uppercase;
+  text-shadow: var(--shadow-text-1);
   font-weight: 500;
   font-size: 4rem;
   letter-spacing: 3px;
 }
 .hero-text-name {
   color: var(--orange);
+  font-size: 4rem;
 }
 .hero-link {
   color: var(--dark);
   font-size: 1.5em;
-  text-shadow: 1px 0.5px 2px #000000;
+  text-shadow: var(--shadow-link-2);
 }
 .hero-text-p {
   letter-spacing: 2px;
@@ -68,7 +74,7 @@ header {
   background-color: var(--orange);
   padding: 5px;
   color: var(--putih);
-  text-shadow: 1px 1px 2px #000;
+  text-shadow: var(--shadow-text-1);
   font-weight: 500;
 }
 .portofolio {
