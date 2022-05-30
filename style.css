@@ -1,10 +1,10 @@
 :root {
   /* font */
-  --font-01: 'Montserrat', sans-serif;
-  --font-02: 'Poppins', sans-serif;
-  --font-03: 'Roboto', sans-serif;
-  --font-04: 'Spline Sans Mono', monospace;
-  --font-05: 'Dancing Script', cursive;
+  --font-01: "Montserrat", sans-serif;
+  --font-02: "Poppins", sans-serif;
+  --font-03: "Roboto", sans-serif;
+  --font-04: "Spline Sans Mono", monospace;
+  --font-05: "Dancing Script", cursive;
   /* font */
 
   /* color */
@@ -46,6 +46,9 @@ body {
 header {
   background-color: var(--biru);
   margin-top: 3rem;
+  background-image: url(img/hero-background.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
 }
 
 .hero-text {
@@ -69,6 +72,7 @@ header {
 .hero-text-p {
   letter-spacing: 2px;
   font-size: 12px;
+  text-shadow: var(--shadow-text-1);
 }
 .hero-text-p2 {
   background-color: var(--orange);
@@ -90,4 +94,22 @@ header {
   color: var(--abu-abu);
   font-size: 14px;
   text-align: center;
+}
+@media (min-width: 992px) {
+  header {
+    background-color: var(--biru);
+    margin-top: 3rem;
+    background-image: url(img/hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+  }
+  footer {
+    background-color: var(--dark);
+    color: var(--orange);
+    padding: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: var(--font-02);
+  }
 }
