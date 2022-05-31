@@ -95,10 +95,23 @@ header {
   font-size: 14px;
   text-align: center;
 }
-.porto-link:hover {
-  background-color: var(--biru);
+.porto-link .card:hover {
+  border: none;
   text-decoration: none;
   /* opacity: 0.5; */
+}
+.porto-link {
+  text-decoration: none;
+  /* opacity: 0.5; */
+}
+#contacme {
+  background-color: var(--biru);
+}
+.text-section {
+  text-transform: uppercase;
+  color: var(--abu-abu);
+  font-weight: 500;
+  font-size: 18px;
 }
 @media (min-width: 992px) {
   header {
