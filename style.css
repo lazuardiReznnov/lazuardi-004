@@ -95,6 +95,11 @@ header {
   font-size: 14px;
   text-align: center;
 }
+.porto-link:hover {
+  background-color: var(--biru);
+  text-decoration: none;
+  /* opacity: 0.5; */
+}
 @media (min-width: 992px) {
   header {
     background-color: var(--biru);
