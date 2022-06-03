@@ -107,11 +107,18 @@ header {
 #contacme {
   background-color: var(--biru);
 }
-.text-section {
+.text-title {
   text-transform: uppercase;
   color: var(--abu-abu);
   font-weight: 500;
   font-size: 18px;
+}
+.text-section {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--abu-abu);
+  font-family: var(--font-03);
 }
 @media (min-width: 992px) {
   header {
